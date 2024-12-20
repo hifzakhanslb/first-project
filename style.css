@@ -1,0 +1,17 @@
+h1 {
+    color: red;
+}
+
+@media screen and (max-width: 320px) {
+    h1 {
+        color: blue;
+        /* display: none;
+        visibility: hidden; */
+    }
+}
+
+@media screen and (min-width:321px) and (max-width:720px) {
+    h1 {
+        color: blueviolet;
+    }
+}
